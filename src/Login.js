@@ -7,7 +7,7 @@ import "./Login.css";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [user, loading, error] = useAuthState(auth);
+  const [user, loading] = useAuthState(auth);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -16,8 +16,8 @@ function Login() {
       return;
     }
     if (user) navigate("/index");
-  }, [user, loading]);
-
+  });
+  //[user, loading]
   return (
     <div className="login">
       <div className="login__container">

@@ -8,9 +8,21 @@
   background-color: #eee;
   padding: 0 30px;
 }
-
+.search-box {
+  width: 100%;
+  /* margin-top: 100px; */
+  display: flex;
+  justify-content: center;
+}
+.search-box-i {
+  margin-top: 100px;
+  width: 70%;
+  border: 1px solid #000;
+  outline: none;
+  padding: 12px 8px;
+}
 .div-box {
-  padding: 100px 0;
+  padding: 60px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;

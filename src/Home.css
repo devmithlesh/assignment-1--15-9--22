@@ -1,0 +1,67 @@
+.h-div {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/homebac.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.ha-div {
+  width: 100%;
+  display: flex;
+}
+.hs-div {
+  margin: 12% 0 0 3%;
+  color: #e0c008;
+}
+.hs-div > h1 {
+  color: #ddd;
+  text-transform: uppercase;
+  padding: 4px 0;
+}
+.hs-div p {
+  padding: 4px 0 10px 0;
+  width: 50%;
+  letter-spacing: 1px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 12px 40px;
+  background-color: #e0c008;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.img-div {
+  width: 60%;
+  margin: 8%;
+  display: flex;
+  justify-content: center;
+}
+.img-div > img {
+  width: 100%;
+  background-size: contain;
+}
+
+@media (max-width: 784px) {
+  .h-div {
+    overflow-y: auto;
+  }
+  .img-div {
+    width: 100%;
+    margin: 8%;
+    display: flex;
+    justify-content: center;
+  }
+  .hs-div {
+    margin-top: 110px;
+  }
+  .ha-div {
+    flex-wrap: wrap;
+  }
+}

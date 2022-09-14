@@ -18,13 +18,13 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDIXJ5YT7hoNbBFqK3TBcV41-TzIO-7n7w",
-  authDomain: "fir-auth-6edd8.firebaseapp.com",
-  projectId: "fir-auth-6edd8",
-  storageBucket: "fir-auth-6edd8.appspot.com",
-  messagingSenderId: "904760319835",
-  appId: "1:904760319835:web:44fd0d957f114b4e51447e",
-  measurementId: "G-Q4TYKH9GG7",
+  apiKey: "AIzaSyB1QTAwmoHxEMzvzt308_gaW7zEQBU9VuM",
+  authDomain: "fir-auth-4ae57.firebaseapp.com",
+  projectId: "fir-auth-4ae57",
+  storageBucket: "fir-auth-4ae57.appspot.com",
+  messagingSenderId: "330454550931",
+  appId: "1:330454550931:web:f72748ccb86172f4de0066",
+  measurementId: "G-PRR9655CBB",
 };
 
 const app = initializeApp(firebaseConfig);
